@@ -1,0 +1,11 @@
+{
+    "Name": "Mineral Town",
+    "Author": "Legolukas",
+    "Version": "1.0.0",
+    "Description": "Mineral Town",
+    "UniqueID": "Legolukas.MineralTown",
+    "UpdateKeys": [ "Nexus:???" ],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+  }
