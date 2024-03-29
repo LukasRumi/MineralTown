@@ -3,8 +3,8 @@
  
    "CustomLocations": [
       {
-         "Name": "Custom_SpringTownT",
-         "FromMapFile": "assets/SpringTownTop.tmx"
+         "Name": "Custom_MineralTownT",
+         "FromMapFile": "assets/MineralTownTop/MineralTownTop.tmx"
       }
    ]
 }
