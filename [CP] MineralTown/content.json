@@ -1,9 +1,9 @@
 {
-   "Format": "1.27.0",
- "CustomLocations": [
+"Format": "1.27.0",
+   "CustomLocations": [
       {
-         "Name": "Custom_MineralTownTop",
-         "FromMapFile": "assets/MineralTownTop.tmx"
+         "Name": "Custom_MineralTown",
+         "FromMapFile": "assets/MineralTown.tmx"
       }
    ]
 }
