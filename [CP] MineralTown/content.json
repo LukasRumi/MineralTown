@@ -4,6 +4,10 @@
       {
          "Name": "Custom_MineralTown",
          "FromMapFile": "assets/MineralTown.tmx"
+      },
+      {
+         "Name": "Custom_MineralTownForest",
+         "FromMapFile": "assets/MineralForest.tmx"
       }
    ]
 }
