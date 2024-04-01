@@ -18,11 +18,11 @@ My goal is to build and implement Mineral Town of the Harvest Moon GBA game.
 - [] Mineral Town 
 - - [x] Basic Layout
 - - [] Detailed Map
-- [x] Forest 
+- [] Forest 
 - - [x] Basic Layout
 - - [] Detailed Map
 - [] Docks
-- - [] Basic Layout
+- - [x] Basic Layout
 - - [] Detailed Map
 - [] Farm
 - - [] Basic Layout
