@@ -428,6 +428,7 @@
  </tile>
  <tile id="109">
   <properties>
+   <property name="Passable" value="F"/>
    <property name="Water" value="T"/>
   </properties>
  </tile>
