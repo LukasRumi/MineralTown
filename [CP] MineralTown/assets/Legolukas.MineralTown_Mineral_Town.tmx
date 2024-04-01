@@ -899,7 +899,7 @@
   </tile>
  </tileset>
  <tileset firstgid="4280" name="springharvestmoon" tilewidth="16" tileheight="16" tilecount="2664" columns="72">
-  <image source="springharvestmoon.png" width="1159" height="598"/>
+  <image source="spring_harvestmoon.png" width="1159" height="598"/>
  </tileset>
  <tileset firstgid="6944" name="spring_mod_lumisteria_tilesheetsoutdoor_buildings" tilewidth="16" tileheight="16" tilecount="1875" columns="25">
   <image source="spring_mod_lumisteria_tilesheetsoutdoor_buildings.png" width="400" height="1200"/>
@@ -908,7 +908,7 @@
   <image source="spring_Xiddav.png" width="480" height="608"/>
  </tileset>
  <tileset firstgid="9959" name="springWine" tilewidth="16" tileheight="16" tilecount="16" columns="8">
-  <image source="springWine.png" width="128" height="32"/>
+  <image source="spring_Wine.png" width="128" height="32"/>
  </tileset>
  <tileset firstgid="9975" name="fall_Xiddav" tilewidth="16" tileheight="16" tilecount="1140" columns="30">
   <image source="fall_Xiddav.png" width="480" height="608"/>

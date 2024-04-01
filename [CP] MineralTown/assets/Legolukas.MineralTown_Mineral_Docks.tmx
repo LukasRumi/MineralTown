@@ -26,7 +26,7 @@
   <image source="spring_town.png" width="512" height="1152"/>
  </tileset>
  <tileset firstgid="6219" name="springharvestmoon" tilewidth="16" tileheight="16" tilecount="2664" columns="72">
-  <image source="springharvestmoon.png" width="1159" height="598"/>
+  <image source="spring_harvestmoon.png" width="1159" height="598"/>
  </tileset>
  <tileset firstgid="8883" name="spring_beach" tilewidth="16" tileheight="16" tilecount="527" columns="17">
   <image source="spring_beach.png" width="272" height="496"/>

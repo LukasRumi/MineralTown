@@ -14,7 +14,7 @@
   <image source="paths.png" width="64" height="256"/>
  </tileset>
  <tileset firstgid="3915" name="springharvestmoon" tilewidth="16" tileheight="16" tilecount="2664" columns="72">
-  <image source="springharvestmoon.png" width="1159" height="598"/>
+  <image source="spring_harvestmoon.png" width="1159" height="598"/>
  </tileset>
  <layer id="1" name="Back" width="60" height="32">
   <data encoding="csv">

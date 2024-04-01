@@ -1,13 +1,92 @@
 {
-"Format": "1.27.0",
-   "CustomLocations": [
+"Format": "2.0.0",
+   "Changes": [
+      // Load Custom Tilesheets into Maps
       {
-         "Name": "Custom_MineralTown",
-         "FromMapFile": "assets/MineralTown.tmx"
+      "LogName": "Load custom tilesheets to Maps",
+      "Action": "Load",
+      "Target": "Maps/spring_harvestmoon, Maps/summer_harvestmoon, Maps/fall_harvestmoon, Maps/winter_harvestmoon",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
       },
       {
-         "Name": "Custom_MineralTownForest",
-         "FromMapFile": "assets/MineralForest.tmx"
+      "LogName": "Load custom tilesheets to Maps",
+      "Action": "Load",
+      "Target": "Maps/spring_wine, Maps/summer_wine, Maps/fall_wine, Maps/winter_wine",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+      },
+      {
+      "LogName": "Load custom tilesheets to Maps",
+      "Action": "Load",
+      "Target": "Maps/spring_mod_lumisteria_tilesheetsoutdoor_buildings, Maps/summer_mod_lumisteria_tilesheetsoutdoor_buildings, Maps/fall_mod_lumisteria_tilesheetsoutdoor_buildings, Maps/winter_mod_lumisteria_tilesheetsoutdoor_buildings",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+      },
+      {
+      "LogName": "Load custom tilesheets to Maps",
+      "Action": "Load",
+      "Target": "Maps/spring_Xiddav, Maps/summer_Xiddav, Maps/fall_Xiddav, Maps/winter_Xiddav",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+      },
+// Load Custom Locations to Map
+      {
+      "LogName": "Load custom locations to Maps",
+      "Action": "Load",
+      "Target": "Maps/{{ModId}}_Mineral_Town",
+      "FromFile": "assets/{{TargetWithoutPath}}.tmx"
+      },
+      {
+      "LogName": "Load custom locations to Maps",
+      "Action": "Load",
+      "Target": "Maps/{{ModId}}_Mineral_Forest",
+      "FromFile": "assets/{{TargetWithoutPath}}.tmx"
+      },
+      {
+      "LogName": "Load custom locations to Maps",
+      "Action": "Load",
+      "Target": "Maps/{{ModId}}_Mineral_Docks",
+      "FromFile": "assets/{{TargetWithoutPath}}.tmx"
+      },
+// Add Locations to the game
+      { // debug warp Legolukas.MineralTown_Mineral_Town 30 10
+         "LogName": "Add Locations",
+         "Action": "EditData",
+         "Target": "Data/Locations",
+         "Entries": {
+           "{{ModId}}_Mineral_Town": {
+            "DisplayName": "MineralTown",
+            "ExcludeFromNpcPathfinding": false,
+            "CreateOnLoad": {
+               "MapPath": "Maps\\{{ModId}}_Mineral_Town"
+               }
+           }
+         }
+      },
+      {
+         "LogName": "Add Locations",
+         "Action": "EditData",
+         "Target": "Data/Locations",
+         "Entries": {
+           "{{ModId}}_Mineral_Forest": {
+            "DisplayName": "Forest",
+            "ExcludeFromNpcPathfinding": false,
+            "CreateOnLoad": {
+               "MapPath": "Maps\\{{ModId}}_Mineral_Forest"
+               }
+            }
+         }
+      },
+      {
+         "LogName": "Add Locations",
+         "Action": "EditData",
+         "Target": "Data/Locations",
+         "Entries": {
+            "{{ModId}}_Mineral_Docks": {
+            "DisplayName": "Docks",
+            "ExcludeFromNpcPathfinding": false,
+            "CreateOnLoad": {
+               "MapPath": "Maps\\{{ModId}}_Mineral_Docks"
+               }
+            }
+         }
       }
    ]
 }
