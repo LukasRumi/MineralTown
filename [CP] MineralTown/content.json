@@ -45,6 +45,12 @@
       "Target": "Maps/{{ModId}}_Mineral_Docks",
       "FromFile": "assets/{{TargetWithoutPath}}.tmx"
       },
+      {   
+      "LogName": "Load custom locations to Maps",
+      "Action": "Load",
+      "Target": "Maps/{{ModId}}_Mineral_Behind_Church",
+      "FromFile": "assets/{{TargetWithoutPath}}.tmx"
+      },
 // Add Locations to the game
       { // debug warp Legolukas.MineralTown_Mineral_Town 30 10
          "LogName": "Add Locations",
@@ -87,6 +93,20 @@
                }
             }
          }
-      }
+      },
+      {
+         "LogName": "Add Locations",
+         "Action": "EditData",
+         "Target": "Data/Locations",
+         "Entries": {
+           "{{ModId}}_Mineral_Behind_Church": {
+            "DisplayName": "BehindChurch",
+            "ExcludeFromNpcPathfinding": false,
+            "CreateOnLoad": {
+               "MapPath": "Maps\\{{ModId}}_Mineral_Behind_Church"
+               }
+            }
+         }
+      },
    ]
 }
