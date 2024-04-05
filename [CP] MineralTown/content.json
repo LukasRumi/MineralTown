@@ -50,9 +50,15 @@
       "Action": "Load",
       "Target": "Maps/{{ModId}}_Mineral_Behind_Church",
       "FromFile": "assets/{{TargetWithoutPath}}.tmx"
+      },    
+      {   
+      "LogName": "Load custom locations to Maps",
+      "Action": "Load",
+      "Target": "Maps/{{ModId}}_Mothers_Hill",
+      "FromFile": "assets/{{TargetWithoutPath}}.tmx"
       },
 // Add Locations to the game
-      { // debug warp Legolukas.MineralTown_Mineral_Town 30 10
+      {
          "LogName": "Add Locations",
          "Action": "EditData",
          "Target": "Data/Locations",
@@ -106,6 +112,20 @@
                "MapPath": "Maps\\{{ModId}}_Mineral_Behind_Church"
                }
             }
+         }
+      },
+      {
+         "LogName": "Add Locations",
+         "Action": "EditData",
+         "Target": "Data/Locations",
+         "Entries": {
+           "{{ModId}}_Mothers_Hill": {
+            "DisplayName": "_Mothers_Hill",
+            "ExcludeFromNpcPathfinding": false,
+            "CreateOnLoad": {
+               "MapPath": "Maps\\{{ModId}}_Mothers_Hill"
+               }
+           }
          }
       },
    ]
